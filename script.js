@@ -90,7 +90,7 @@ function flexDefaultAndUpdate(data) {
     temp_city.classList.add("flex");
     listsContainer.classList.remove("none");
 
-    mainTemperature.innerHTML = `${Math.round(data.main.temp)}&#170;`;
+    mainTemperature.innerHTML = `${Math.round(data.main.temp)}&#176;`;
     mainCity.innerHTML = `${data.name}`;
     description.innerHTML = `${data.weather[0].main}`;
     secondCity.innerHTML = `${data.name},`;
