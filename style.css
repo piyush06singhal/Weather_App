@@ -18,7 +18,7 @@ body {
   font-family: "Rubik", sans-serif;
   color: #fff;
   /*     background-image: "./dayImage/background5.webp"; */
-  background: url("background5.webp");
+  background: url("images1/background5.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@ body::before {
 
 .weather-app {
   position: relative;
-  background: url("background3.webp");
+  background: url("images1/background3.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
